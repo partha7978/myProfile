@@ -1,3 +1,9 @@
+@media only screen and (max-width:1270px) {
+    .container {
+        height: auto;
+        width: 100%;
+    }
+}
 @media only screen and (max-width:845px) {
     .container {
         height: auto;
@@ -30,6 +36,10 @@
         margin: 2.5rem;
         margin-bottom: 1.7rem;
     }
+    .profile-hr {
+        max-width:30rem;
+        margin: 0px 2.5rem;
+    }
 
     /* 2nd page starts*/
     .heading-project {
@@ -59,17 +69,14 @@
     h5 {
         font-size:0.8rem;
     }
-    /* .first-page-image-div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
     .first-page-image {
         width: 90%;
         height:auto;
         margin: 1.5rem;
         
     }
+
+  
 }
 
 @media only screen and (max-width:420px) {
@@ -94,6 +101,7 @@
         font-weight: 200;
         letter-spacing: 2px;
     }
+
 }
 
 
