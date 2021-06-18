@@ -1,0 +1,466 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+  width: auto;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+ 
+}
+
+/* SCROLL BAR STARTS */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+    /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+
+/* SCROLL BAR ENDS */
+
+
+
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header section starts */
+.header {
+    /* background-color: rgb(154, 255, 247); */
+    display: flex;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+
+}
+
+h5 {
+    margin: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+    cursor: pointer;
+    color: white;
+}
+h5:hover {
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.home {
+    font-weight: 700;
+}
+.last-list {
+   margin-left: auto;
+}
+.header-profile-icon {
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius:50%;
+    padding: 0;
+    margin: 1rem 1rem;
+}
+
+
+.header-profile-icon:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+    letter-spacing:3px;
+}
+
+/* Header section ends */
+
+
+/* First Page Starts */
+.first-page {
+    display: flex;
+
+}
+.first-page-image {
+    width: 35rem;
+    height: 25rem;
+    margin: 3rem;
+    border-radius: 20px;
+    box-shadow: 6px 6px 5px rgb(185, 185, 185);
+}
+.first-page-image:hover {
+    box-shadow:6px 6px 5px rgb(138, 245, 236);
+}
+.first-page-heading {
+    margin: 3rem 3rem 1rem 3rem;
+    font-size: 2rem;
+
+
+}
+
+.first-page-p {
+    margin: 3rem;
+    margin-bottom: 2rem;
+}
+.profile-hr {
+    max-width:30rem;
+    margin: 0px 3rem;
+    border: 2px solid black;
+    background-color: black;
+}
+
+
+/*Animation starts for first-page-heading  and total profile-text*/
+.animate__bounce {
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+    letter-spacing:3px;
+}
+.animate__backInUp {
+    animation: backInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+/*Animation ends for first-page-heading  and total profile-text*/
+
+
+.view-resume {
+    margin: 0 3rem 3rem 3rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+    
+}
+.view-resume-button {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #f0fd78 0%, #82ee61 74%);
+    color: rgb(54, 54, 54);
+    border: none;
+    font-size: 2rem;
+    height: 3rem;
+    width:3rem;
+    border-radius: 50%;    
+    outline: none;
+    cursor: pointer;
+   
+}
+/* .view-resume {
+    animation: slideInRight; 
+    animation-duration: 3s; 
+} */
+.view-resume {
+    animation: headShake; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+}
+
+.view-resume:hover {
+    color:rgb(159, 130, 172);
+}
+/* First Page Ends */
+
+
+
+
+
+
+
+
+
+/* 2nd page starts */
+
+
+
+
+/* heading project starts */
+.heading-project {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project {
+    font-size: 2.0rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 13px;
+    margin: 0px 1rem;
+    margin-right: 0;
+    cursor: pointer;
+    
+    animation: blinker 0.4s linear infinite; 
+
+    color: white;
+}
+.project:hover {
+    background: -webkit-linear-gradient(#f6f879, #44fcce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+/* heading project ends */
+
+/* card section starts */
+.container-second {
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+.container-second-card {
+    /* width: 1100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-second-card .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px; 
+    box-shadow: 0 20px 50px rgba(0,0,0,0,2);
+    overflow: hidden;
+
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    
+
+
+}
+.container-second-card:hover .card {
+    opacity: 0.2;
+}
+.container-second-card .card:hover {
+    opacity: 1;
+}
+.container-second-card .card:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    background: rgba(255,255,255,0.1);
+    width: 50%;
+    pointer-events: none;
+}
+.container-second-card .card .content {
+    padding: 30px;
+    text-align: center;
+}
+.container-second-card .card .content h2 {
+    position: absolute;
+    right: 30px;
+    font-size: 4em;
+    font-weight: 800;
+    color: #e8f52f;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.container-second-card .card:hover .content h2 {
+    opacity: 1;
+    transform: translateY(-70px);
+    /* text-shadow: 3px 3px 20px #e8f52f; */
+}
+.container-second-card .card .content h3 {
+    position:relative;
+    font-size: 1.5em;
+    color: #fff;
+    z-index: 2;
+    opacity: 0.5;
+    letter-spacing:1px;
+    transition: 0.5s;
+} 
+.container-second-card .card .content p {
+    position:relative;
+    font-size: 1em;
+    color: #fff;
+    z-index: 2;
+    opacity: 0.5;
+    font-weight: 300;
+    letter-spacing:1px;
+    transition: 0.5s;
+} 
+.container-second-card .card:hover .content h3,
+.container-second-card .card:hover .content p
+{
+    opacity: 1;
+}
+
+.container-second-card .card .content a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: #fff;
+    color: #0c002b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.container-second-card .card span {
+    transition: 0.5;
+    opacity: 0;
+}
+.container-second-card .card:hover span {
+    opacity: 1;
+} 
+.container-second-card .card span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #fbff17);
+    animation: animate1 2s linear infinite;
+} 
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.container-second-card .card span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #fbff17);
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+} 
+@keyframes animate2 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.container-second-card .card span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, #fbff17);
+    animation: animate3 2s linear infinite;
+} 
+@keyframes animate3 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.container-second-card .card span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, #fbff17);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+} 
+@keyframes animate4 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+/* card section starts */
+
+
+/* container second button starts */
+
+.project-section-button-div {
+    display: flex;
+    justify-content: center;
+    margin-top:4rem;
+}
+
+
+.project-section-button {background-image: linear-gradient(to right, #A1FFCE 0%, #FAFFD1  51%, #A1FFCE  100%)}
+.project-section-button {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: rgb(0, 0, 0);      
+   font-weight: 600;      
+  
+   border-radius: 10px;
+   display: block;
+   letter-spacing: 8px;
+   border: none;
+
+   animation-duration: 2s;
+   animation-delay:0s;
+   animation-iteration-count: infinite;
+}
+
+.project-section-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: rgb(0, 0, 0);
+    /* font-weight: 900; */
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+}
+
+/* container second button ends */
+
+/* 2nd page ends */
+
+
+

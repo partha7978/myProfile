@@ -1,0 +1,23 @@
+@media only screen and (max-width:845px) {
+    .first-page {
+        display: flex;
+        flex-direction: column;
+    }
+    h5 {
+        font-size:0.8rem;
+    }
+    .first-page-image {
+        width: 35rem;
+        height: 25rem;
+        margin: 2.5rem;
+        
+    }
+    .first-page-heading {
+        margin: 2.1rem 2.5rem 0.8rem 2.5rem;
+        font-size: 1.7rem;
+    }
+    .first-page-p {
+        margin: 2.5rem;
+        margin-bottom: 1.7rem;
+    }
+}
