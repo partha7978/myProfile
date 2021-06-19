@@ -41,6 +41,14 @@
         margin: 0px 2.5rem;
     }
 
+    .view-resume {
+        margin: 0 3rem 3rem 2.5rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+        letter-spacing: 3px;
+        cursor: pointer;
+        
+    }
     /* 2nd page starts*/
     .heading-project {
         margin: 1.5rem;
@@ -51,6 +59,7 @@
         margin: 24px; 
         box-shadow: 0 20px 50px rgba(0,0,0,0,2);
     }
+
     
     
     /* 2nd page ends */
@@ -103,6 +112,4 @@
     }
 
 }
-
-
 
