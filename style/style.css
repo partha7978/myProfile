@@ -97,7 +97,7 @@ h5:hover {
 
 .header-profile-icon:hover {
     cursor: pointer;
-    box-shadow: 1px 1px 13px rgb(255, 235, 59);
+    box-shadow: 1px 1px 13px rgba(165, 234, 255, 0.45);
     animation: pulse; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s; /* don't forget to set a duration! */
     animation-iteration-count: infinite;
@@ -110,7 +110,6 @@ h5:hover {
 /* First Page Starts */
 .first-page {
     display: flex;
-
 }
 .first-page-image {
     width: 35rem;
