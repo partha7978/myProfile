@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+  width: auto;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+.container-second-page{
+  height: 100%;
+  width: 100%;
+}
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(255, 255, 255); */
+  background-color: #abe9cd;
+   background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+}
+.right-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.right-side-content {
+  margin: 2rem;
+  background-color: white;
+  width: 35rem;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.65);
+  padding: 1rem;
+
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+.right-side-content-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.right-side-content-heading-text {
+  text-decoration: uppercase;
+  font-size:1rem;
+  font-weight:900;
+  letter-spacing:5px;
+  cursor: pointer;
+}
+.school {
+  margin: 2.5rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.school-image-div,
+.school-info {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+}
+
+.school-image {
+  width: 10rem;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45);
+  float: left;
+}
+.school-image:hover {
+  animation-duration: 3s;
+  /* animation-delay: 0s; */
+  animation-iteration-count: infinite;
+}
+.school-heading {
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+li {
+  list-style: none;
+}
+
+.college-image {
+  float: right;
+}
+.university-image {
+  float: left;
+}
+
+
+/* Right side starts */
+.left-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.left-side-content {
+  margin: 2rem;
+  background-color: white;
+  width: 35rem;
+  height: auto;
+  top: 50%;
+  right: 50%;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.65);
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.left-side-content-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.left-side-content-heading-text{
+  text-decoration: uppercase;
+  font-size:1rem;
+  font-weight:900;
+  letter-spacing:5px;
+  cursor: pointer;
+}
+.left-side-upper-content, .left-side-lower-content {
+  margin: 2rem;
+  background-color: white;
+  width: 30rem;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45);
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.left-side-upper-content-text-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-side-upper-content-text {
+  text-decoration: underline;
+  letter-spacing:2px;
+  cursor: pointer;
+}
+
+.left-side-upper-content-element-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.web-dev-icon {
+  margin: 1rem;
+  background-color: #fff;
+  border: none;
+  transition: all 1s; 
+  cursor: pointer;
+}
+.web-dev-icon:hover {
+  transform:scale(1.1);
+}
+.fab {
+  margin: 0.2rem;
+  font-size: 4rem;
+}
+.fa-html5 {
+  color: orangered;
+}
+.fa-css3-alt {
+  color: rgb(0, 102, 255);
+}
+.fa-js {
+  color: yellow;
+}
+.fa-react {
+  color: skyblue;
+}
+.fa-node {
+  color: green;
+}
+.fa-git {
+  color: rgb(255, 72, 0)
+}
+
+
+/* lower content starts */
+.lower-content-icon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.lower-content-icon-div {
+  margin: 1rem;
+  background-color: rgb(231, 231, 231);
+  height: 3rem;
+  width: auto;
+  top: 50%;
+  left: 50%;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.lower-content-icon-text {
+  font-weight:600;
+  letter-spacing:2px;
+  font-size:0.9rem;
+}
+.lower-content-icon-div:hover {
+  transform:scale(1.1);
+}

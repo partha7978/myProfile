@@ -1,0 +1,104 @@
+
+@media only screen and (max-width: 1500px) {
+  .container-second-page{
+    
+    width: 100%;
+    height: auto;
+  }
+  .sections {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .right-side, .left-side {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  .right-side-content, .left-side-content {
+    width: 70%;
+    height: auto;
+  }
+
+  /* .left-side-upper-content, .left-side-lower-content {
+    margin: 2rem;
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    flex-direction: column;
+  } */
+
+  .left-side-upper-content, .left-side-lower-content {
+    width: auto;
+  height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .school {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .school-image-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+  }
+  .school-info {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .school-image {
+    width:85%;
+    height: auto;
+    float:none;
+  }
+  .college-image {
+    float: left;
+  } 
+  .school-image-div {
+    order: 1;
+  }
+  .school-info {
+    order: 2;
+  }
+  .left-side-upper-content, .left-side-lower-content {
+    width: auto;
+  height: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .right-side-content, .left-side-content {
+    width: auto;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .right-side-content, .left-side-content {
+    width: auto;
+    height: auto;
+  }
+  .left-side-upper-content, .left-side-lower-content {
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .web-dev-icon {
+    margin: 1rem;
+  }
+  .fab {
+    margin: 0.2rem;
+    font-size: 3rem;
+  }
+}
+
