@@ -92,6 +92,8 @@ h5:hover {
     border-radius:50%;
     padding: 0;
     margin: 1rem 1rem;
+    
+
 }
 
 
@@ -124,7 +126,8 @@ h5:hover {
     margin: 3rem;
     border: none;
     outline: none;
-   
+    animation: backInUp; 
+    animation-duration: 1s; 
 }
 
 
