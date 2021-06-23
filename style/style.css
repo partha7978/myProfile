@@ -129,8 +129,10 @@ h5:hover {
 
 
 .first-page-image:hover {
-    box-shadow:6px 6px 5px rgb(138, 245, 236);
-
+    /* box-shadow:6px 6px 5px rgb(138, 245, 236); */
+    animation: pulse; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
 }
 .first-page-heading {
     margin: 3rem 3rem 1rem 3rem;
