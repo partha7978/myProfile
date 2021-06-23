@@ -16,10 +16,7 @@ html {
   height: 100%;
   width: 100%;
 }
-.container-second-page{
-  height: 100%;
-  width: 100%;
-}
+
 .sections {
   display: flex;
   flex-wrap: wrap;

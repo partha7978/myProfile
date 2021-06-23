@@ -111,15 +111,28 @@ h5:hover {
 .first-page {
     display: flex;
 }
-.first-page-image {
+/* .first-page-image {
     width: 35rem;
     height: 25rem;
     margin: 3rem;
     border-radius: 20px;
     box-shadow: 6px 6px 5px rgb(185, 185, 185);
+} */
+.first-page-image {
+    width: 45rem;
+    height: 35rem;
+    margin: 3rem;
+    border: none;
+    outline: none;
+    animation: pulse; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
 }
+
+
 .first-page-image:hover {
     box-shadow:6px 6px 5px rgb(138, 245, 236);
+  
 }
 .first-page-heading {
     margin: 3rem 3rem 1rem 3rem;
