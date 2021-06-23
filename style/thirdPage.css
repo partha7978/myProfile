@@ -58,8 +58,9 @@
     box-shadow: 0 20px 50px rgba(0,0,0,0,2);
     overflow: hidden;
 
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
     
 
 
@@ -89,7 +90,7 @@
     right: 30px;
     font-size: 4em;
     font-weight: 800;
-    color: #e8f52f;
+    color: #0026ff;
     z-index: 1;
     opacity: 0.1;
     transition: 0.5s;
@@ -149,7 +150,7 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(to right, transparent, #fbff17);
+    background: linear-gradient(to right, transparent, #0026ff);
     animation: animate1 2s linear infinite;
 } 
 @keyframes animate1 {
@@ -167,7 +168,7 @@
     right: 0;
     width: 3px;
     height: 100%;
-    background: linear-gradient(to bottom, transparent, #fbff17);
+    background: linear-gradient(to bottom, transparent, #0026ff);
     animation: animate2 2s linear infinite;
     animation-delay: 1s;
 } 
@@ -186,7 +187,7 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(to left, transparent, #fbff17);
+    background: linear-gradient(to left, transparent, #0026ff);
     animation: animate3 2s linear infinite;
 } 
 @keyframes animate3 {
@@ -204,7 +205,7 @@
     left: 0;
     width: 3px;
     height: 100%;
-    background: linear-gradient(to top, transparent, #fbff17);
+    background: linear-gradient(to top, transparent, #0026ff);
     animation: animate4 2s linear infinite;
     animation-delay: 1s;
 } 
