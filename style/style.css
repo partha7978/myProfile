@@ -124,15 +124,13 @@ h5:hover {
     margin: 3rem;
     border: none;
     outline: none;
-    animation: pulse; 
-    animation-duration: 2s; 
-    animation-iteration-count: infinite;
+   
 }
 
 
 .first-page-image:hover {
     box-shadow:6px 6px 5px rgb(138, 245, 236);
-  
+
 }
 .first-page-heading {
     margin: 3rem 3rem 1rem 3rem;
