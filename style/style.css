@@ -126,16 +126,18 @@ h5:hover {
     margin: 3rem;
     border: none;
     outline: none;
-    animation: backInUp; 
-    animation-duration: 1s; 
+    /* animation: backInUp; 
+    animation-duration: 1s;  */
+    transition: all 1s; 
 }
 
 
 .first-page-image:hover {
-    /* box-shadow:6px 6px 5px rgb(138, 245, 236); */
-    animation: pulse; 
+    /* box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45); */
+    /* animation: pulse; 
     animation-duration: 2s; 
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
+    transform: scale(1.1);
 }
 .first-page-heading {
     margin: 3rem 3rem 1rem 3rem;
