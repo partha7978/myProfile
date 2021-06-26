@@ -60,7 +60,7 @@ html {
 
 }
 
-h5 {
+.header > h5 {
     margin: 1rem 1rem;
     font-size: 1rem;
     font-weight: 200;
@@ -68,7 +68,7 @@ h5 {
     cursor: pointer;
     color: rgb(5, 5, 5);
 }
-h5:hover {
+.header > h5:hover {
     font-weight: 900;
     color: rgb(0, 0, 0);
     text-decoration: underline;

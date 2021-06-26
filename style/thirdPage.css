@@ -1,18 +1,20 @@
-
+.container-third-page {
+    height: 100%;
+    width: 100%;
+}
 /* heading project starts */
 .heading-project {
-    margin: 3rem;
+    margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .project {
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 13px;
     margin: 0px 1rem;
-    margin-right: 0;
     cursor: pointer;
     
     animation: blinker 0.4s linear infinite; 
@@ -35,7 +37,7 @@
 /* heading project ends */
 
 /* card section starts */
-.container-second {
+.container-second-card {
     background-color: #ffffff;
     /* background-color: #abe9cd; 
     background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%); */
@@ -55,9 +57,8 @@
     justify-content: center;
     align-items: center;
     margin: 30px; 
-    box-shadow: 0 20px 50px rgba(0,0,0,0,2);
     overflow: hidden;
-
+    box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45);
   
     background-color: #abe9cd;
     background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
@@ -66,7 +67,7 @@
 
 }
 .container-second-card:hover .card {
-    opacity: 0.2;
+    opacity: 1;
 }
 .container-second-card .card:hover {
     opacity: 1;
@@ -226,7 +227,7 @@
 .project-section-button-div {
     display: flex;
     justify-content: center;
-    margin-top:4rem;
+    margin-top:3rem;
 }
 
 
@@ -249,6 +250,7 @@
    animation-duration: 2s;
    animation-delay:0s;
    animation-iteration-count: infinite;
+   cursor: pointer;
 }
 
 .project-section-button:hover {
@@ -256,7 +258,7 @@
     color: rgb(0, 0, 0);
     /* font-weight: 900; */
     text-decoration: none;
-    box-shadow: 0 0 20px rgb(47, 113, 255);
+    box-shadow: 0 0 20px rgba(85, 66, 255, 0.55);
 }
 .project-section-button-link {
     text-decoration: none;

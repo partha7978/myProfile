@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ html {
 .container {
   height: 100%;
   width: 100%;
-}
+} */
 
 .sections {
   display: flex;
