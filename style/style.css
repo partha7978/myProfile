@@ -6,7 +6,7 @@
 body,
 html {
   height: 100%;
-  width: auto;
+  width: 100%;
   margin: 0px;
   font-family: 'Poppins', sans-serif;
   background-color: #ffffff;
@@ -60,7 +60,7 @@ html {
 
 }
 
-.header > h5 {
+h5 {
     margin: 1rem 1rem;
     font-size: 1rem;
     font-weight: 200;
@@ -68,7 +68,7 @@ html {
     cursor: pointer;
     color: rgb(5, 5, 5);
 }
-.header > h5:hover {
+h5:hover {
     font-weight: 900;
     color: rgb(0, 0, 0);
     text-decoration: underline;
