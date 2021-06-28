@@ -208,7 +208,13 @@ li {
 .fa-git {
   color: rgb(255, 72, 0)
 }
+.web-dev-icon > i {
+  transition: all 1s;
+}
 
+.web-dev-icon > i:hover {
+  transform:scale(1.1);
+}
 
 /* lower content starts */
 .lower-content-icon {

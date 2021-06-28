@@ -101,6 +101,10 @@
         height: auto;
         width: 100%;
     }
+    .header {
+        width: 100%;
+        height: auto;
+    }
     
     .first-page {
         flex-direction: column;
