@@ -119,6 +119,15 @@ cursor: pointer;
 .address > p {
   font-size: 0.8rem;
 }
+.address > p >a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: black;;
+}
+.address > p >a:hover {
+  text-decoration: underline;
+  color: blue;
+} 
 
 .footer-center {
   width: 33.33%;
