@@ -34,11 +34,11 @@
   align-items: center;
   /* border: 1px solid black; */
   margin: 1rem;
-cursor: pointer;
+  cursor: pointer;
   box-shadow: 0 0 30px rgb(0, 153, 255);
 }
 .contact-image:hover {
-    box-shadow: 0 0 60px rgb(0, 153, 255);
+  box-shadow: 0 0 60px rgb(0, 153, 255);
 }
 .contact-image-icon {
   height: 6.7rem;
@@ -119,15 +119,15 @@ cursor: pointer;
 .address > p {
   font-size: 0.8rem;
 }
-.address > p >a {
+.address > p > a {
   font-size: 0.8rem;
   text-decoration: none;
-  color: black;;
+  color: black;
 }
-.address > p >a:hover {
+.address > p > a:hover {
   text-decoration: underline;
   color: blue;
-} 
+}
 
 .footer-center {
   width: 33.33%;

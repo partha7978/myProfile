@@ -24,7 +24,7 @@ html {
   width: 100%;
   /* background-color: rgb(255, 255, 255); */
   background-color: #abe9cd;
-   background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
 }
 .right-side {
   width: 50%;
@@ -52,13 +52,13 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
 }
 .right-side-content-heading-text {
   text-decoration: uppercase;
-  font-size:1rem;
-  font-weight:900;
-  letter-spacing:5px;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 5px;
   cursor: pointer;
 }
 .school {
@@ -102,7 +102,6 @@ li {
   float: left;
 }
 
-
 /* Right side starts */
 .left-side {
   width: 50%;
@@ -111,7 +110,6 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
- 
 }
 .left-side-content {
   margin: 2rem;
@@ -135,16 +133,17 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
 }
-.left-side-content-heading-text{
+.left-side-content-heading-text {
   text-decoration: uppercase;
-  font-size:1rem;
-  font-weight:900;
-  letter-spacing:5px;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 5px;
   cursor: pointer;
 }
-.left-side-upper-content, .left-side-lower-content {
+.left-side-upper-content,
+.left-side-lower-content {
   margin: 2rem;
   background-color: white;
   width: 30rem;
@@ -166,7 +165,7 @@ li {
 }
 .left-side-upper-content-text {
   text-decoration: underline;
-  letter-spacing:2px;
+  letter-spacing: 2px;
   cursor: pointer;
 }
 
@@ -180,11 +179,11 @@ li {
   margin: 1rem;
   background-color: #fff;
   border: none;
-  transition: all 1s; 
+  transition: all 1s;
   cursor: pointer;
 }
 .web-dev-icon:hover {
-  transform:scale(1.1);
+  transform: scale(1.1);
 }
 .fab {
   margin: 0.2rem;
@@ -206,14 +205,14 @@ li {
   color: green;
 }
 .fa-git {
-  color: rgb(255, 72, 0)
+  color: rgb(255, 72, 0);
 }
 .web-dev-icon > i {
   transition: all 1s;
 }
 
 .web-dev-icon > i:hover {
-  transform:scale(1.1);
+  transform: scale(1.1);
 }
 
 /* lower content starts */
@@ -242,10 +241,10 @@ li {
 }
 
 .lower-content-icon-text {
-  font-weight:600;
-  letter-spacing:2px;
-  font-size:0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
 }
 .lower-content-icon-div:hover {
-  transform:scale(1.1);
+  transform: scale(1.1);
 }

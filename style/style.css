@@ -8,107 +8,95 @@ html {
   height: 100%;
   width: 100%;
   margin: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   scroll-behavior: smooth;
- 
 }
 
 /* SCROLL BAR STARTS */
 /* width */
 ::-webkit-scrollbar {
-    width: 20px;
+  width: 20px;
 }
 
-    /* Track */
+/* Track */
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    /* border-radius: 10px; */
-    
+  box-shadow: inset 0 0 5px grey;
+  /* border-radius: 10px; */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background-color: #abe9cd;
-    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #abe9cd;
-    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
-   
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
 }
 
 /* SCROLL BAR ENDS */
 
-
-
-
 .container {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 /* Header section starts */
 .header {
-    /* background-color: rgb(154, 255, 247); */
-    display: flex;
-    background-color: #abe9cd;
-   background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
-
-
+  /* background-color: rgb(154, 255, 247); */
+  display: flex;
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
 }
 
 h5 {
-    margin: 1rem 1rem;
-    font-size: 1rem;
-    font-weight: 200;
-    letter-spacing: 3px;
-    cursor: pointer;
-    color: rgb(5, 5, 5);
+  margin: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: 200;
+  letter-spacing: 3px;
+  cursor: pointer;
+  color: rgb(5, 5, 5);
 }
 h5:hover {
-    font-weight: 900;
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
 }
 .home {
-    font-weight: 700;
+  font-weight: 700;
 }
 .last-list {
-   margin-left: auto;
+  margin-left: auto;
 }
 .header-profile-icon {
-    width: 1.9rem;
-    height: 1.9rem;
-    border-radius:50%;
-    padding: 0;
-    margin: 1rem 1rem;
-    
-
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  padding: 0;
+  margin: 1rem 1rem;
 }
 
-
 .header-profile-icon:hover {
-    cursor: pointer;
-    box-shadow: 1px 1px 13px rgba(165, 234, 255, 0.45);
-    animation: pulse; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s; /* don't forget to set a duration! */
-    animation-iteration-count: infinite;
-    letter-spacing:3px;
+  cursor: pointer;
+  box-shadow: 1px 1px 13px rgba(165, 234, 255, 0.45);
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+  animation-iteration-count: infinite;
+  letter-spacing: 3px;
 }
 
 /* Header section ends */
 
-
 /* First Page Starts */
 .first-page {
-    display: flex;
+  display: flex;
 }
 /* .first-page-image {
     width: 35rem;
@@ -119,108 +107,86 @@ h5:hover {
 } */
 
 .first-page-image {
-    width: 45rem;
-    height: 35rem;
-    margin: 3rem;
-    border: none;
-    outline: none;
-    /* animation: backInUp; 
+  width: 45rem;
+  height: 35rem;
+  margin: 3rem;
+  border: none;
+  outline: none;
+  /* animation: backInUp; 
     animation-duration: 1s;  */
-    transition: all 1s; 
+  transition: all 1s;
 }
-
 
 .first-page-image:hover {
-    /* box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45); */
-    /* animation: pulse; 
+  /* box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45); */
+  /* animation: pulse; 
     animation-duration: 2s; 
     animation-iteration-count: infinite; */
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 .first-page-heading {
-    margin: 3rem 3rem 1rem 3rem;
-    font-size: 2rem;
-
-
+  margin: 3rem 3rem 1rem 3rem;
+  font-size: 2rem;
 }
 
 .first-page-p {
-    margin: 3rem;
-    margin-bottom: 2rem;
+  margin: 3rem;
+  margin-bottom: 2rem;
 }
 .profile-hr {
-    max-width:30rem;
-    margin: 0px 3rem;
-    border: 2px solid black;
-    background-color: black;
+  max-width: 30rem;
+  margin: 0px 3rem;
+  border: 2px solid black;
+  background-color: black;
 }
-
 
 /*Animation starts for first-page-heading  and total profile-text*/
 .animate__bounce {
-  
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
-    animation-iteration-count: infinite;
-    letter-spacing:3px;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-iteration-count: infinite;
+  letter-spacing: 3px;
 }
 .animate__backInUp {
-    animation: backInUp; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s; /* don't forget to set a duration! */
+  animation: backInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
 /*Animation ends for first-page-heading  and total profile-text*/
 
-
 .view-resume {
-    margin: 0 3rem 3rem 3rem;
-    font-weight: 700;
-    font-size: 1.3rem;
-    letter-spacing: 3px;
-    cursor: pointer;
-    
+  margin: 0 3rem 3rem 3rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  cursor: pointer;
 }
 .view-resume-button {
-    background-color: #abe9cd;
-    background-image: linear-gradient(315deg, #71ffbf 0%, #46c7ee 74%);
-    color: rgb(0, 0, 0);
-    border: none;
-    font-size: 2rem;
-    height: 3rem;
-    width:3rem;
-    border-radius: 50%;    
-    outline: none;
-    cursor: pointer;
-   
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #71ffbf 0%, #46c7ee 74%);
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
 }
 /* .view-resume {
     animation: slideInRight; 
     animation-duration: 3s; 
 } */
 .view-resume {
-    animation: headShake; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s; /* don't forget to set a duration! */
-    animation-iteration-count: infinite;
+  animation: headShake; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+  animation-iteration-count: infinite;
 }
 
 .view-resume:hover {
-    color:rgb(134, 255, 239);
+  color: rgb(134, 255, 239);
 }
 /* First Page Ends */
 
-
-
-
-
-
-
-
-
 /* 2nd page starts */
 
-
-
-
 /* 2nd page ends */
-
-
-
