@@ -13,6 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /* SCROLL BAR STARTS */
 /* width */
 ::-webkit-scrollbar {
@@ -42,6 +43,7 @@ html {
 .container {
   height: 100%;
   width: 100%;
+ 
 }
 
 /* Header section starts */
@@ -90,6 +92,17 @@ h5:hover {
   animation-duration: 1s; /* don't forget to set a duration! */
   animation-iteration-count: infinite;
   letter-spacing: 3px;
+}
+
+/* dark mode button */
+.dark-mode-icon {
+  margin: 1rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 2rem rgba(28, 43, 255, 0.9);
 }
 
 /* Header section ends */

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./style/responsiveSecondPage.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="./style/contactPage.css" />
+    <link rel="stylesheet" href="./style/darkMode.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
@@ -37,11 +38,13 @@
   <body>
     <div class="container" >
       <header class="header">
-        <img
+        <!-- <img
           class="header-profile-icon animate__pulse"
           src="./images/pexels-snapwire-670061.jpg"
           alt="profile image"
-        />
+        /> -->
+       
+        <button class="dark-mode-icon btn-toggle" ><i class="icon fas fa-sun"></i></button>
         <h5 class="home animate__pulse header-hFive">Home</h5>
         <h5 class="animate__pulse header-hFive">About</h5>
         <h5 class="animate__pulse header-hFive">Profile</h5>
@@ -226,7 +229,7 @@
 
     <!-- 3rd page starts -->
 
-    <div class="container container-second">
+    <div class="container container-second third-container">
       <div class="heading-project">
         <span class="project" data-aos="fade-up">Projects</span>
       </div>
@@ -394,5 +397,7 @@
         duration:1000,
       });
     </script>
+
+    <script src="./script.js"></script>
   </body>
 </html>
