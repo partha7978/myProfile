@@ -1,8 +1,24 @@
-
 /* for dark mode starts*/
 .dark-mode {
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* dark mode button */
+.dark-mode-icon {
+  /* margin: 1rem; */
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 2rem rgba(28, 43, 255, 0.9);
+}
+
+.btn-color-change {
+    background-color:black;
     color: white;
-  }
-  /* dark mode ends */
-  
+}
+.dark-button-shadow {
+    box-shadow: 0 0 2rem rgba(188, 228, 11, 0.9);
+}
