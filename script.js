@@ -5,6 +5,8 @@ const icon = document.querySelector(".icon");
 const secondPageLeftContent = document.querySelector(".right-side-background");
 const secondPageRightContent = document.querySelector(".left-side-background");
 
+
+const firstPageProfileText = document.querySelector(".profile-text");
 btn.addEventListener("click", function () {
     var element = document.body;
     element.classList.toggle("dark-mode");
@@ -19,4 +21,5 @@ btn.addEventListener("click", function () {
     secondPageLeftContent.classList.toggle("dark-mode");
     secondPageRightContent.classList.toggle("dark-mode");
 
+    firstPageProfileText.classList.toggle("dark-mode");
 })
