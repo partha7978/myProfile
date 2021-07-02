@@ -177,6 +177,15 @@ li {
  > .left-side-upper-content-element-div > .web-dev-icon {
   background-color: rgb(32, 32, 32);
 }
+.left-side-background > .left-side-lower-content 
+> .lower-content-icon > .lower-content-icon-div {
+  background-color: rgb(255, 255, 255);
+}
+
+.dark-mode > .left-side-lower-content 
+> .lower-content-icon > .lower-content-icon-div {
+  background-color: rgb(32, 32, 32);
+}
 
 
 
@@ -279,7 +288,7 @@ li {
 }
 .lower-content-icon-div {
   margin: 1rem;
-  background-color: rgb(231, 231, 231);
+  /* background-color: rgb(231, 231, 231); */
   height: 3rem;
   width: auto;
   top: 50%;
