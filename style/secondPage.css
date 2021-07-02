@@ -53,11 +53,11 @@ html {
 .right-side-background {
   background-color: rgb(255, 255, 255);
 }
-.right-side-background > .school > .school-info  > ul > li {
+.right-side-background > .school > .school-info > ul > li {
   color: rgb(14, 14, 14);
 }
 
-.dark-mode > .school > .school-info  > ul > li {
+.dark-mode > .school > .school-info > ul > li {
   color: white;
 }
 .right-side-background > .right-side-content-heading > h4 {
@@ -66,10 +66,6 @@ html {
 .dark-mode > .right-side-content-heading > h4 {
   color: white;
 }
-
-
-
-
 
 /* Dark Mode Ends */
 .right-side-content-heading {
@@ -137,7 +133,7 @@ li {
 }
 .left-side-content {
   margin: 2rem;
- 
+
   width: 35rem;
   height: auto;
   top: 50%;
@@ -163,15 +159,32 @@ li {
 .dark-mode > .left-side-content-heading > h4 {
   color: white;
 }
-.left-side-background > .left-side-upper-content, 
+.left-side-background > .left-side-upper-content,
 .left-side-background > .left-side-lower-content {
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
-.dark-mode > .left-side-upper-content, 
+.dark-mode > .left-side-upper-content,
 .dark-mode > .left-side-lower-content {
-  background-color:rgb(0, 0, 0);
+  background-color: rgb(32, 32, 32);
 }
+
+.left-side-background > .left-side-upper-content
+ > .left-side-upper-content-element-div > .web-dev-icon {
+  background-color: rgb(255, 255, 255);
+}
+
+.dark-mode > .left-side-upper-content
+ > .left-side-upper-content-element-div > .web-dev-icon {
+  background-color: rgb(32, 32, 32);
+}
+
+
+
 /* Dark mode part ends */
+
+
+
+
 .left-side-content-heading {
   display: flex;
   justify-content: center;
@@ -219,7 +232,7 @@ li {
 }
 .web-dev-icon {
   margin: 1rem;
-  background-color: #fff;
+ 
   border: none;
   transition: all 1s;
   cursor: pointer;
