@@ -13,6 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /* SCROLL BAR STARTS */
 /* width */
 ::-webkit-scrollbar {
@@ -42,6 +43,7 @@ html {
 .container {
   height: 100%;
   width: 100%;
+ 
 }
 
 /* Header section starts */
@@ -73,6 +75,7 @@ h5:hover {
   font-weight: 700;
 }
 .last-list {
+  margin: 1rem 1rem 1rem auto;
   margin-left: auto;
 }
 .header-profile-icon {
@@ -91,6 +94,7 @@ h5:hover {
   animation-iteration-count: infinite;
   letter-spacing: 3px;
 }
+
 
 /* Header section ends */
 
