@@ -105,6 +105,9 @@
         width: 100%;
         height: auto;
     }
+    .home {
+        margin-left: 1rem;
+    }
     
     .first-page {
         flex-direction: column;
