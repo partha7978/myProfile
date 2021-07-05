@@ -7,6 +7,13 @@ const secondPageRightContent = document.querySelector(".left-side-background");
 
 
 const firstPageProfileText = document.querySelector(".profile-text");
+
+const thirdPageContainer = document.querySelector(".third-container");
+const thirdPageHeading = document.querySelector(".project-color");
+
+
+
+
 btn.addEventListener("click", function () {
     var element = document.body;
     element.classList.toggle("dark-mode");
@@ -22,4 +29,6 @@ btn.addEventListener("click", function () {
     secondPageRightContent.classList.toggle("dark-mode");
 
     firstPageProfileText.classList.toggle("dark-mode");
+    thirdPageContainer.classList.toggle("third-page-dark-mode");
+    thirdPageHeading.classList.toggle("project-color-dark-mode");
 })
