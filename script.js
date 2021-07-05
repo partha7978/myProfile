@@ -41,7 +41,7 @@ const thirdPage = () => {
 
 
 
-//for system theme
+//for system theme detection and set the theme according to that
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
  console.log("dark mode detected");   // dark mode
     darkMode();
