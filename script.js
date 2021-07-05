@@ -48,7 +48,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     secondPage();
     thirdPage();
 
-    setTimeout(function() {
+    setTimeout(() => {
         alert("The website is in dark mode, You can also try the light mode by clicking on the top right corner icon.")
     }, 3000);
     
