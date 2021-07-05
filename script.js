@@ -43,7 +43,7 @@ const thirdPage = () => {
 
 //for system theme detection and set the theme according to that
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    window.location.reload(); //for reloding
+    // window.location.reload(); //for reloding
  console.log("dark mode detected");   // dark mode
     darkMode();
     firstPage();
