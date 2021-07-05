@@ -6,7 +6,7 @@ const firstPageProfileText = document.querySelector(".profile-text");
 const thirdPageContainer = document.querySelector(".third-container");
 const thirdPageHeading = document.querySelector(".project-color");
 
-btn.addEventListener("click", function () {
+btn.addEventListener("click",  () => {
    darkMode();
     firstPage();
     secondPage();
