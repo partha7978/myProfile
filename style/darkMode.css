@@ -4,6 +4,7 @@
   color: white;
 }
 
+
 /* dark mode button */
 .dark-mode-icon {
   /* margin: 1rem; */
@@ -23,3 +24,12 @@
 .dark-button-shadow {
     box-shadow: 0 0 2rem rgba(208, 255, 0, 0.9);
 }
+
+
+/* for dark mode detection */
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background-color:black;
+    color: white;
+  }
+} */
