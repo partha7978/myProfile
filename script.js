@@ -38,3 +38,18 @@ const thirdPage = () => {
     thirdPageContainer.classList.toggle("third-page-dark-mode");
     thirdPageHeading.classList.toggle("project-color-dark-mode");
 }
+
+
+
+//for system theme
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+ console.log("dark mode detected");   // dark mode
+    darkMode();
+    firstPage();
+    secondPage();
+    thirdPage();
+}
+else
+{
+    console.log("light mode detected"); // light mode
+}

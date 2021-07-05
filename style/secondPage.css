@@ -110,7 +110,9 @@ html {
   font-weight: 800;
   text-decoration: underline;
   letter-spacing: 2px;
+  margin-bottom:0.4rem;
 }
+
 li {
   list-style: none;
 }
