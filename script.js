@@ -25,10 +25,16 @@ btn.addEventListener("click", function () {
     btn.classList.toggle("btn-color-change");
     btn.classList.toggle("dark-button-shadow");
     
-    secondPageLeftContent.classList.toggle("dark-mode");
-    secondPageRightContent.classList.toggle("dark-mode");
-
+  
+    secondPage();
+    
     firstPageProfileText.classList.toggle("dark-mode");
     thirdPageContainer.classList.toggle("third-page-dark-mode");
     thirdPageHeading.classList.toggle("project-color-dark-mode");
 })
+
+
+const secondPage = () => {
+    secondPageLeftContent.classList.toggle("dark-mode");
+    secondPageRightContent.classList.toggle("dark-mode");
+}
