@@ -5,12 +5,14 @@ const secondPageRightContent = document.querySelector(".left-side-background");
 const firstPageProfileText = document.querySelector(".profile-text");
 const thirdPageContainer = document.querySelector(".third-container");
 const thirdPageHeading = document.querySelector(".project-color");
+const contactPageImage = document.querySelector(".contact-image");
 
 btn.addEventListener("click",  () => {
    darkMode();
     firstPage();
     secondPage();
     thirdPage();
+    contactPage();
 })
 
 const darkMode = () => {
@@ -39,6 +41,10 @@ const thirdPage = () => {
     thirdPageHeading.classList.toggle("project-color-dark-mode");
 }
 
+const contactPage = () => {
+    contactPageImage.classList.toggle("contact-image-dark");
+}
+
 //for system theme detection and set the theme according to that
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     // window.location.reload(); //for reloding
@@ -47,6 +53,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     firstPage();
     secondPage();
     thirdPage();
+    contactPage();
 
     setTimeout(() => {
         alert("The website is in dark mode, You can also try the light mode by clicking on the top right corner icon.")

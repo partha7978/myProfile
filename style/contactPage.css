@@ -28,7 +28,7 @@
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
-  background-color: #ffff;
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +36,10 @@
   margin: 1rem;
   cursor: pointer;
   box-shadow: 0 0 30px rgb(0, 153, 255);
+}
+.contact-image-dark {
+  background-color:black;
+  box-shadow: 0 0 30px rgb(255, 255, 255);
 }
 .contact-image:hover {
   box-shadow: 0 0 60px rgb(0, 153, 255);
