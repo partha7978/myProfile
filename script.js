@@ -9,7 +9,7 @@ const contactPageImage = document.querySelector(".contact-image");
 
 const neuromorphismSchool = document.querySelector(".school-image");
 const neuromorphismCollege = document.querySelector(".college-image");
-
+const neuromorphismUniversity = document.querySelector(".university-image");
 btn.addEventListener("click",  () => {
     darkMode();
     firstPage();
