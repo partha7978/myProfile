@@ -16,7 +16,6 @@ btn.addEventListener("click",  () => {
     secondPage();
     thirdPage();
     contactPage();
-    neuromorphismInDarkMode();
 })
 
 const darkMode = () => {
@@ -41,6 +40,7 @@ const secondPage = () => {
 
     neuromorphismSchool.classList.toggle("neuromorphism");
     neuromorphismCollege.classList.toggle("neuromorphism");
+    neuromorphismUniversity.classList.toggle("neuromorphism");
 }
 
 const thirdPage = () => {
@@ -62,7 +62,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     secondPage();
     thirdPage();
     contactPage();
-    neuromorphismInDarkMode();
+   
 
 
     setTimeout(() => {
