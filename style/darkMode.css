@@ -25,6 +25,13 @@
     box-shadow: 0 0 2rem rgba(208, 255, 0, 0.9);
 }
 
+/* for neuromorphism */
+.neuromorphism {
+  background: #f0f0f0;
+  box-shadow: 25px 25px 60px rgba(85, 66, 255, 0.45),
+            -25px -25px 60px #000000;
+}
+
 
 /* for dark mode detection */
 /* @media (prefers-color-scheme: dark) {

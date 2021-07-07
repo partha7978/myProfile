@@ -97,9 +97,15 @@ html {
   width: 10rem;
   height: auto;
   border-radius: 1rem;
-  box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45);
+  /* box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45); */
   float: left;
+
+  /* for neuromorphism */
+  background: #f0f0f0;
+  box-shadow: 25px 25px 60px rgba(85, 66, 255, 0.45),
+            -25px -25px 60px #ffffff;
 }
+
 .school-image:hover {
   animation-duration: 3s;
   /* animation-delay: 0s; */
@@ -223,6 +229,8 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  
 }
 .left-side-upper-content-text-div {
   display: flex;
