@@ -7,12 +7,16 @@ const thirdPageContainer = document.querySelector(".third-container");
 const thirdPageHeading = document.querySelector(".project-color");
 const contactPageImage = document.querySelector(".contact-image");
 
+const neuromorphismSchool = document.querySelector(".school-image");
+const neuromorphismCollege = document.querySelector(".college-image");
+
 btn.addEventListener("click",  () => {
-   darkMode();
+    darkMode();
     firstPage();
     secondPage();
     thirdPage();
     contactPage();
+    neuromorphismInDarkMode();
 })
 
 const darkMode = () => {
@@ -34,6 +38,9 @@ const firstPage = () => {
 const secondPage = () => {
     secondPageLeftContent.classList.toggle("dark-mode");
     secondPageRightContent.classList.toggle("dark-mode");
+
+    neuromorphismSchool.classList.toggle("neuromorphism");
+    neuromorphismCollege.classList.toggle("neuromorphism");
 }
 
 const thirdPage = () => {
@@ -45,6 +52,7 @@ const contactPage = () => {
     contactPageImage.classList.toggle("contact-image-dark");
 }
 
+
 //for system theme detection and set the theme according to that
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     // window.location.reload(); //for reloding
@@ -54,6 +62,8 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     secondPage();
     thirdPage();
     contactPage();
+    neuromorphismInDarkMode();
+
 
     setTimeout(() => {
         alert("The website is in dark mode, You can also try the light mode by clicking on the top right corner icon.")
