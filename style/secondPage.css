@@ -223,14 +223,22 @@ li {
   top: 50%;
   left: 50%;
   border-radius: 1rem;
-  box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45);
+  /* box-shadow: 0 1rem 2rem rgba(85, 66, 255, 0.45); */
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
+  box-shadow: 25px 25px 60px rgba(204, 204, 204, 0.65),
+  -25px -25px 60px rgba(255, 255, 255, 0.65);
   
+}
+.left-side-upper-content:hover,
+.left-side-lower-content:hover {
+  
+  box-shadow: 25px 25px 60px rgba(156, 167, 255, 0.65),
+  -25px -25px 60px rgba(156, 167, 255, 0.65);
 }
 .left-side-upper-content-text-div {
   display: flex;
