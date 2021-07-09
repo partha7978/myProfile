@@ -240,6 +240,12 @@ li {
   box-shadow: 25px 25px 60px rgba(156, 167, 255, 0.65),
   -25px -25px 60px rgba(156, 167, 255, 0.65);
 }
+.left-side-lower-content:hover,
+ {
+  
+  box-shadow: 25px 25px 60px rgba(156, 167, 255, 0.65),
+  -25px -25px 60px rgba(156, 167, 255, 0.65);
+}
 .left-side-upper-content-text-div {
   display: flex;
   justify-content: center;
