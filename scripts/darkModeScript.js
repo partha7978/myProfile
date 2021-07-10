@@ -13,6 +13,7 @@ const bodyColor = document.querySelector(".bodyColor");
 
 
 btn.addEventListener("click",  () => {
+    body();
     darkMode();
     firstPage();
     secondPage();
@@ -68,7 +69,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     secondPage();
     thirdPage();
     contactPage();
-   
+    body();
 
 
     setTimeout(() => {
