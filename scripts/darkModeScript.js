@@ -25,6 +25,10 @@ const darkMode = () => {
     element.classList.toggle("dark-mode");
 }
 
+const body = () => {
+    bodyColor.classList.toggle("bodyColorDark");
+}
+
 const firstPage = () => {
     icon.classList.toggle("fas");
     icon.classList.toggle("fa-sun");
