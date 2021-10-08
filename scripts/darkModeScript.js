@@ -61,27 +61,27 @@ const contactPage = () => {
 
 
 //for system theme detection and set the theme according to that
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    // window.location.reload(); //for reloding
- console.log("dark mode detected");   // dark mode
-    darkMode();
-    firstPage();
-    secondPage();
-    thirdPage();
-    contactPage();
-    body();
+// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+//     // window.location.reload(); //for reloding
+//  console.log("dark mode detected");   // dark mode
+//     darkMode();
+//     firstPage();
+//     secondPage();
+//     thirdPage();
+//     contactPage();
+//     body();
 
 
-    setTimeout(() => {
-        alert("The website is in dark mode, You can also try the light mode by clicking on the top right corner icon.")
-    }, 3000);
+//     setTimeout(() => {
+//         alert("The website is in dark mode, You can also try the light mode by clicking on the top right corner icon.")
+//     }, 3000);
     
-}
-else
-{
-    console.log("light mode detected"); // light mode
+// }
+// else
+// {
+//     console.log("light mode detected"); // light mode
 
-    setTimeout(function() {
-        alert("The website is in light mode, You can also try the dark mode by clicking on the top right corner icon.")
-    }, 3000);
-}
+//     setTimeout(function() {
+//         alert("The website is in light mode, You can also try the dark mode by clicking on the top right corner icon.")
+//     }, 3000);
+// }
